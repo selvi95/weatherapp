@@ -30,6 +30,8 @@ app.get("/api/weather", function (req, res) {
     })
 })
 
+console.log("weatherapp installed");
+
 app.listen(port, function () {
     console.log("Server up on port 4000");
 })
